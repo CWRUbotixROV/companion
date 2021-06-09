@@ -54,7 +54,7 @@ sudo n 5.6.0
 sudo npm install tty.js -g
 
 # clone bluerobotics companion repository
-git clone https://github.com/bluerobotics/companion.git $HOME/companion
+git clone https://github.com/CWRUbotixROV/companion.git $HOME/companion
 
 cd $HOME/companion/br-webui
 
