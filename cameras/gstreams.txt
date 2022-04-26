@@ -1,0 +1,1 @@
+'gst-launch-1.0 -v v4l2src device=/dev/video0 ! "image/jpeg,width=1280, height=720,framerate=15/1" ! rtpjpegpay pt=96 mtu=8000 ! udpsink host=192.168.2.1 port=5001'

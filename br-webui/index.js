@@ -81,7 +81,7 @@ app.use(expressLiquid.middleware);
 
 // Companion repository root directory
 var _companion_directory = process.env.COMPANION_DIR;
-
+/*
 var v4l2camera = require("v4l2camera");
 // This holds all of the cameras/settings detected at start, and that are currently in use, we need to update this every time we modify the camera setttings
 var _cameras = []
@@ -178,7 +178,7 @@ for (var i = 0; ;i++) {
 		break;
 	}
 }
-
+*/
 
 ////////////////// Routes
 

@@ -40,8 +40,7 @@ sudo pip install mavproxy dronekit dronekit-sitl # also installs pymavlink
 sudo apt-get install -y screen
 
 # web ui dependencies, separate steps to avoid conflicts
-sudo apt-get install -y node
-sudo apt-get install -y nodejs-legacy
+sudo apt-get install -y nodejs
 sudo apt-get install -y npm
 
 # node updater
@@ -54,7 +53,7 @@ sudo n 5.6.0
 sudo npm install tty.js -g
 
 # clone bluerobotics companion repository
-git clone https://github.com/CWRUbotixROV/companion.git $HOME/companion
+#git clone https://github.com/CWRUbotixROV/companion.git $HOME/companion
 
 cd $HOME/companion/br-webui
 
